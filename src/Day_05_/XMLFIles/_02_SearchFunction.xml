@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Search Function Test">
+        <parameter name="email" value="ada@gmail.com"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <parameter name="searchKeyword" value="mac"></parameter>
+        <classes>
+            <class name="Day_05_._02_SearchFunctionTest"></class>
+        </classes>
+    </test>
+</suite>

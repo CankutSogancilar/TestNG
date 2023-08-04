@@ -1,0 +1,9 @@
+<suite name="All Test Suite">
+    <test name="C:/Users/ragip/IdeaProjects/Us_Batch8_TestNG/src/Day07/XMLFiles">
+        <parameter name="browser" value="chrome"></parameter>
+
+        <classes>
+            <class name="Day_07_._04_PlaceOrderTestWithPOM"></class>
+        </classes>
+    </test>
+</suite>
