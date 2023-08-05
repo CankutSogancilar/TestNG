@@ -40,11 +40,6 @@ public class ParameterDriver {
         Duration duration = Duration.ofSeconds(30);
         driver.manage().timeouts().pageLoadTimeout(duration);
         driver.manage().timeouts().implicitlyWait(duration);
-
-
-
-
-
     }
 
     @AfterClass(alwaysRun = true)
